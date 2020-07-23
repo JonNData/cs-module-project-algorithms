@@ -6,6 +6,7 @@ from collections import namedtuple
 Item = namedtuple('Item', ['index', 'size', 'value'])
 
 def knapsack_solver(items, capacity):
+    # value/size to prioritize , iterate until can't add anything under capacity
     # Your code here
 
     pass
